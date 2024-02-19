@@ -4,8 +4,8 @@ This is an implementation of a paper from [*Expert Systems with Applications*](h
 
 # Authors
 
-@nicklimjx
-@pbht
+[@nicklimjx](https://github.com/nicklimjx)
+[@pbht](https://github.com/pbht)
 
 # Thoughts on the paper
 
