@@ -25,7 +25,7 @@ One of the best features we thought of the paper was the generation of a correla
 
 ## Extensions
 
-We are currently investigating pump and dump data for trading strategies with [Honglin Fu](https://profiles.ucl.ac.uk/95638-honglin-fu) of the UCL Centre for [Blockchain Technologies](https://blockchain.cs.ucl.ac.uk/). Do contact us if you would like to work on something!
+We are currently investigating pump and dump data for trading strategies with [Honglin Fu](https://profiles.ucl.ac.uk/95638-honglin-fu) of the [UCL Centre for Blockchain Technologies](http://blockchain.cs.ucl.ac.uk/). Do contact us if you would like to work on something!
 
 ## License
 
