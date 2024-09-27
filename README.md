@@ -15,13 +15,13 @@ This approach uses overlapping subseries of 4 hour close data to train the class
 
 Data is first clustered using K-means and Hierarchical clustering according to a Dynamic Time Warping (DTW) distance metric. By not using a Euclidean distance matrix, we hope to better cluster the time series according to trends. This allows us to remove outliers by visual inspection of the clusters. An image is provided to better visualise the problem (see thoughts on the paper for potential improvements).
 
-A featureset is then built using technical indicators such as ROC and RSI. The the data is then labelled as 'upwards', 'neutral' or 'downwards' according to the percentage change between the first and last close prices in the subseries. 
+A featureset is then built using price indicators. The the data is then labelled as 'upwards', 'neutral' or 'downwards' according to the percentage change between the first and last close prices in the subseries. 
 
 ## Thoughts on the paper
 
 The paper has a couple of limitations which we believe could be improved upon. At the root of the issue is the fact that the paper utilises machine learning for prediction. Due to the inherent 'blackbox' nature of machine learning, it is impossible for this to be a truly reliable system. Moreover, the authors did not justify many of the decisions they took, leading to a lack of rigor when choosing clusters and finetuning parameters etc. A suggestion for improvement is choosing a certain height up the dendrogram for hierarchical clustering to be able to have outlier clusters.
 
-One of the best features we thought of the paper was the generation of a correlation matrix for the technical indicators when building the featureset. Doing so means that certain indicators that would measure similar things such as momentum would not be 'double counted' when generating the featureset.
+One of the best features we thought of the paper was the generation of a correlation matrix for the price indicators used  when building the featureset. Doing so means that certain indicators that would measure similar things such as momentum would not be 'double counted' when generating the featureset.
 
 ## Extensions
 
